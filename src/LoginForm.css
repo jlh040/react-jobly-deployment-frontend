@@ -1,0 +1,22 @@
+.LoginForm, .LoginForm-form {
+    height: 100%;
+}
+
+.LoginForm {
+    position: relative;
+}
+
+.LoginForm-form {
+    position: relative;
+    top: 10%;
+}
+
+.LoginForm-label {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.LoginForm-button {
+    display: flex;
+    justify-content: center;
+}

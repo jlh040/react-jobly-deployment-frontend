@@ -1,0 +1,23 @@
+.EditProfileForm, .EditProfileForm-form {
+    height: 100%;
+}
+
+.EditProfileForm {
+    position: relative;
+}
+
+.EditProfileForm-label {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.EditProfileForm-button {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 300px;
+}
