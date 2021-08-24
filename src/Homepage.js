@@ -2,12 +2,13 @@ import React, { useContext } from 'react';
 import UserContext from './userContext';
 import { Jumbotron } from 'reactstrap';
 import './Homepage.css';
+import "animate.css"
 
 const Homepage = () => {
   const { user } = useContext(UserContext);
   return (
     <div className="Homepage">
-      <Jumbotron className="Homepage-jumbotron">
+      <Jumbotron className="animate__animated animate__bounceInLeft Homepage-jumbotron">
         <h1 className="display-3">Jobly</h1>
         <p className="lead">Your go-to place for the best jobs.</p>
         {user && (
